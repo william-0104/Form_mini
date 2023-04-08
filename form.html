@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <h2 align="center">Survey Form</h2>
+
+   
+
+    <table style="margin: auto;">
+    <tr>
+        <td><p>Let Us know we can improve freeCodeCamp</p></td>
+    </tr>
+
+    <tr>
+    <td>Name</td>
+    <td><input type="text" name="txtsname" placeholder="Enter your name"></td>
+    </tr> 
+
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="txtemail" placeholder="Enter your email"></td>
+    </tr>
+
+    <tr>
+        <td>Age</td>
+        <td><input type="text" name="txtage" placeholder="Age"></td>
+    </tr>
+
+    <tr>
+        <td>Which option best descrubes your current role?</td>
+        <td><select>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="waiter">Waiter</option>
+        </select></td>
+    </tr>
+
+    <tr>
+        <td>How likely is that you would recommend <br> freeCodeCamp to a friend?</td>
+        <td><input type="radio" name="rdorecom" value="definitely">Definitely <br>
+            <input type="radio" name="rdorecom" value="Maybe"> Maybe <br>
+            <input type="radio" name="rdorecom" value="not sure" checked> Not sure
+        </td>
+    </tr>
+
+    <tr>
+        <td>Things tha should be improved in the future <br> (Check all that apply)</td>
+        <td><input type="checkbox" name="chkterms">Front-end Projects <br>
+            <input type="checkbox" name="chkterms">Back-end Projects <br>
+            <input type="checkbox" name="chkterms">Data Visqualization</td>
+    </tr>
+    </table>
+
+
+    <hr>
+
+    <h2>About</h2>
+    <label style="text-decoration: underline;" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa atque consectetur ipsam ipsa velit nulla quia, amet tempora, odio dolorem voluptatem fuga aliquid facere esse eveniet, ipsum aut. Aut, nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam atque eos necessitatibus ipsum voluptas porro debitis quo odio distinctio accusantium, veniam amet laudantium aspernatur expedita dignissimos veritatis dolorem delectus numquam!</label>
+
+    <style>
+        /* .mydiv
+        {
+            border: 1px solid black;
+        } */
+        .bor
+        {
+            border: 1px solid black;
+            display: inline-block;
+            vertical-align: top;
+            width: 15%;
+            padding: 10px;
+            background-color: pink;
+            margin-top: 15px;
+        }
+        #up
+        {
+            /* border: 1px solid black; */
+            width: 40%;
+            display: inline-block;
+        }
+        h2
+        {
+            color: red;
+        }
+    </style>
+
+    <div class="mydiv">
+
+    <div id="up">
+    <h2>Upcoming Classes</h2>
+    <table border="1">
+        <tr>
+            <td>Location</td>
+            <td>Topic</td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>JavaScript & jQuery</td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>HTML & CSS</td>
+        </tr>
+    </table>
+
+    <h2>Sign Up!</h2>
+    <form action="" method="post">
+
+    <label> Name:</label>
+    <input type="text" name="txtname" style="background-color: pink;" ><br><br>
+
+    <label>Email:</label>
+    <input type="text" name="txtname" style="background-color: pink;" > <br><br>
+
+    <label>Location</label>
+    <select style="background-color: gray;" >
+        <option value="San Francisco">San Francisco</option>
+        <option value="Japan">Japan</option>
+    </select><br>
+
+    <label>Gender</label> <br>
+    <input type="radio" name="rdogender" value="Female">Female
+    <input type="radio" name="rdogender" value="Male">Male <br><br>
+
+    <label>Experience :</label> <br>
+    <textarea name="" id="" cols="20" rows="4"></textarea><br>
+
+    <input type="Submit" name="btnsignup" value="sign up">
+    </form> 
+    </div>
+
+    
+    <div class="bor">
+    
+    <h2>Projects</h2>
+    <ul>
+        <li>USA
+            <ul>
+                <li><a href=""> New York</a></li>
+                <li><a href=""> Columbus</a></li>
+                <li><a href=""> Austin</a></li>
+                <li><a href=""> Philly</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>World
+            <ul>
+                <li><a href=""> Ottawa</a></li>
+                <li><a href="" style="color: purple;" > Sydney</a></li>
+               
+            </ul>
+        </li>
+    </ul></div> 
+
+    </div>
+
+   
+</body>
+</html>
